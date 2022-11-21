@@ -131,12 +131,12 @@
 })(jQuery);
 
 // Make same dynamic height for all boxes (used in Services section)
-$(function(){	
-	var column = 0;
-	$('.box').each(function(){
-		h = $(this).height();
-		if (h > column) {
-			column = h;
-		}
-	}).height(column);
-});
+// $(function(){	
+// 	var column = 0;
+// 	$('.box').each(function(){
+// 		h = $(this).height();
+// 		if (h > column) {
+// 			column = h;
+// 		}
+// 	}).height(column);
+// });

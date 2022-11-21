@@ -586,6 +586,26 @@ h6 {
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;
   text-align: center;
+
+  height: 40vh;
+}
+
+@media (min-height: 1000px) {
+  #services .box{
+    height: 30vh;
+  }
+}
+
+@media (min-height: 471px) and (max-height: 770px) {
+  #services .box{
+    height: 60vh;
+  }
+}
+
+@media (max-height: 470px) {
+  #services .box{
+    height: 90vh;
+  }
 }
 
 #services .box:hover {
